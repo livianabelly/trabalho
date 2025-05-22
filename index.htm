@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alertas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="divCadastros">
+       
+        <!-- <form> -->
+            <h1>Cadastre-se</h1>
+            <label>Nome</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Sobrenome</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Data de Nascimento</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>RG</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Rua</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Bairro</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Número da Casa</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Cidade</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>CEP</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Estado</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <button onclick="enviar()">Enviar</button>
+        <!-- </form> -->
+    </div>
+    <div class="snowflakes">
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        <div class="snowflake"><img src="https://64.media.tumblr.com/c976c1f0110dff524dead5bde74dd5df/09b0656ab042c182-ac/s75x75_c1/888d378a91f5776307c5c5633ed9c5c7e094b4e5.gifv"/></div>
+        </div>
+        
+        <style>
+        
+        </style>
+        
+    <script src="script.js"></script>
+</body>
+</html>
